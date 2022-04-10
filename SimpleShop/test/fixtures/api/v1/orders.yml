@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  shipping_address: MyText
+  order_total: 9.99
+  paid_at: 2022-02-16 13:12:31
+  order_status: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  shipping_address: MyText
+  order_total: 9.99
+  paid_at: 2022-02-16 13:12:31
+  order_status: MyString

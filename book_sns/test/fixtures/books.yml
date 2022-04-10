@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  total_pages: 1
+  isbn: MyString
+  published_date: 2022-03-21
+  price: 1
+  publisher_id: 1
+
+two:
+  title: MyString
+  total_pages: 1
+  isbn: MyString
+  published_date: 2022-03-21
+  price: 1
+  publisher_id: 1

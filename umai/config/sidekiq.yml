@@ -1,0 +1,7 @@
+:concurrency: <%= ENV["CONCURRENCY"] || 25 %>
+:queues:
+ - default
+:schedule:
+  my_worker:
+    cron: '00 09 * * * *'   # Runs every 9am
+    class: ExportxmlJob

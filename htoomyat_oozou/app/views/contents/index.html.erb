@@ -1,0 +1,48 @@
+
+
+<ol class="list-group list-group-numbered">
+<% @contents.each do |content| %>
+    <li class="list-group-item d-flex justify-content-between align-items-start">
+
+
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">
+    
+        <figure>
+          <blockquote class="blockquote">
+            <p><%= content.title %> </p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+             by <cite title="Source Title"><%= content.author %></cite>
+          </figcaption>
+        </figure>
+
+
+        </div>
+         <p class="lead"><%= content.content %></p>
+         <p class="lead">Summary - <%= content.summary %></p>
+           
+              <p><small>
+                Publish at <%= content.published_date.strftime("%Y-%m-%d") %>
+                  
+                </small>
+              </p>
+  
+      </div>
+       
+         <% if content.status == "published" %>
+          <span class="badge bg-success"><%= content.status %></span>
+         
+        <% else %>
+         <span class="badge bg-warning"><%= content.status %></span>
+
+           <% end %>
+         
+
+
+
+
+    </li>
+<% end %>
+
+</ol>

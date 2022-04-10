@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Generes</h1>
+
+<div id="generes">
+  <% @generes.each do |genere| %>
+    <%= render genere %>
+    <p>
+      <%= link_to "Show this genere", genere %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New genere", new_genere_path %>

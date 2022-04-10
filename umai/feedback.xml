@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<body>
+  <feedback>
+    <feedbackID>1</feedbackID>
+    <ownername>username1</ownername>
+    <ownercomment>aokcomment</ownercomment>
+    <type>user</type>
+  </feedback>
+  <feedback>
+    <feedbackID>2</feedbackID>
+    <ownername>username1</ownername>
+    <ownercomment>bokcomment</ownercomment>
+    <type>user</type>
+  </feedback>
+  <feedback>
+    <feedbackID>3</feedbackID>
+    <ownername>username2</ownername>
+    <ownercomment>post to comment</ownercomment>
+    <type>post</type>
+  </feedback>
+  <feedback>
+    <feedbackID>4</feedbackID>
+    <ownername>username2</ownername>
+    <ownercomment>user to comment</ownercomment>
+    <type>user</type>
+  </feedback>
+</body>
